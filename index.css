@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#name{
+    background-image: url('./Asset/namebg.jpg');
+    background-size: cover;
+    background-clip:text;
+    color: transparent;
+    font-size: 13vw;
+    font-weight: lighter;
+}
+
+#note{
+  font-family: "Caveat", cursive;
+}
+
+#wrapper{
+    overflow-x: scroll;
+    display: grid;
+    grid-auto-flow: column;
+    overscroll-behavior-inline: contain;
+}
+#wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+#good{
+    font-family: "Nova Square", sans-serif;
+}
+
+#brand{
+    font-family: "Nova Square", sans-serif;
+    background-image: url(./Asset/namebg.jpg);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+}
+
+#image-container{
+    width: 100%;
+    overflow: auto;
+}
+
+#image-container::-webkit-scrollbar{
+    width: 0px;
+}
+
+#certificatewrapper{
+    overflow-x: scroll;
+    display: grid;
+    grid-auto-flow: column;
+    overscroll-behavior-inline: contain;
+}
+#certificatewrapper::-webkit-scrollbar{
+    display: none;
+}
